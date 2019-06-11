@@ -1,0 +1,39 @@
+
+html, body, :global(#root) {
+  height: 100%;
+}
+.popoutMask{
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255,0.4);
+  position: fixed;
+  top:0;
+  left: 0;
+}
+/* 
+.sider{
+  min-height: 93vh;
+}
+.top{
+  min-height: 7vh;
+  width: 100%;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 0 20px #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  line-height: 7vh;
+}
+.header{
+  background: #F0F2F5!important;
+  padding: 20px;
+}
+.contents{
+  margin: 24px 16px 0;
+}
+.allcontents{
+  padding: 24px;
+  background: #fff;
+  min-height: 360px
+} */

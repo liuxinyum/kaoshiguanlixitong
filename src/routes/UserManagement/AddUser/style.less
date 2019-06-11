@@ -1,0 +1,95 @@
+.wrap{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-wrap:wrap;
+  .user{
+    width:33%;
+    height:300px;
+    border:0.2px solid #ccc;
+    .add{
+      width:180px;
+      height:30px;
+      border:0.2px solid #ccc;
+      display:flex;
+      text-align:center;
+      line-height:30px;
+      margin-top:16px;
+      margin-left:20px;
+      div{
+        width:50%;
+        display:block;
+      }
+    }
+    .ipt{
+      width:90%;
+      height: 30px;
+      margin:16px auto;
+      input{
+        width:100%;
+        height:30px;
+        margin:0 auto;
+        border:1px solid #ccc;
+        box-sizing:border-box;
+        padding-left:6px;
+      }
+    }
+  }
+.user:nth-child(1){
+    border:1px solid #ccc;
+    border-bottom-right-radius:6px;
+}
+.user:nth-child(2),.user:nth-child(3){
+    border:1px solid #ccc;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+}
+.user:nth-child(4){
+    border:1px solid #ccc;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+}
+.user:nth-child(5),.user:nth-child(6){
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+.user:nth-child(5),.user:nth-child(6){
+    border-left:0;
+}
+}
+.Addidentity,.Interfacepermissions{
+  height:30px;
+  border:1px solid #0027d6;
+  color:#0027d6;
+  text-align:center;
+  line-height:30px;
+  margin-left:18px;
+  margin-top:16px;
+}
+.Addidentity{
+   width:80px;
+}
+.Interfacepermissions{
+   width:160px;
+}
+.active{
+  border:1px solid #0139FD;
+  color:#0139FD;
+}
+.select,.btn{
+    margin-top:14px;
+    button:nth-child(1){
+      width: 140px;
+       margin-left: 20px;
+       margin-top:8px;
+    }
+    button:nth-child(2){
+       margin-left: 20px;
+    }
+}
+.option{
+      width: 140px; 
+      margin-left: 20px; 
+      margin-top: 8px;
+  }
